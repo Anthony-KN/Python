@@ -89,7 +89,7 @@ def intervaloN (x):
 #tipo Double para calcular la hipotenusa de un 
 #triángulo rectángulo y retorne un valor de tipo Double.        
 def hipoT (x, y):
-        return math.sqrt(x**2 + y**2)
+        print math.sqrt(x**2 + y**2)
         print"*************************************************************"
         menuOpc()
 
