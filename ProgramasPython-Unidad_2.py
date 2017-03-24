@@ -87,9 +87,9 @@ def intervaloN (x):
         menuOpc()
 #9: Realiza un programa que solicite dos argumentos de 
 #tipo Double para calcular la hipotenusa de un 
-#triángulo rectángulo y retorne un valor de tipo Double.        
+#triangulo rectángulo y retorne un valor de tipo Double.        
 def hipoT (x, y):
-        print math.sqrt(x**2 + y**2)
+        print "Resultado:", math.sqrt(x**2 + y**2)
         print"*************************************************************"
         menuOpc()
 
@@ -144,7 +144,7 @@ def menuOpc():
                 intervaloN (int(input('ValorN: ')))
         elif opc == 9:
                 print"*************************************************************"
-                print "Programa que solicite dos argumentos de tipo Double para calcular la hipotenusa de un triángulo rectángulo y retorne un valor de tipo Double."
+                print "Programa que solicite dos argumentos de tipo Double para calcular la hipotenusa de un triangulo rectangulo y retorne un valor de tipo Double."
                 hipoT (input('Lado A: '), input('Lado B: '))
         elif opc == 10:
                 print"*************************************************************"
