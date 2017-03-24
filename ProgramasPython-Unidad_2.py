@@ -98,7 +98,7 @@ def hipoT (x, y):
 def recursive (dato, variable=0):
         if(dato>=0):
                 variable+=dato**2
-                return recu(dato-1,variable)
+                return recursive(dato-1,variable)
         else:
                 print variable
                 print"*************************************************************"
